@@ -1,0 +1,21 @@
+<idea-plugin>
+    <id>pronskiy.elephpant</id>
+    <name>Elephpant Progress Bar</name>
+    <vendor email="roman@pronskiy.com">Roman Pronskiy</vendor>
+
+    <description><![CDATA[
+    An adorable elephpant progress bar for <a href="https://www.jetbrains.com/phpstorm/">PhpStorm</a> and other JetBrains IDEs. <br>
+    <br>
+    <a href="https://www.php.net/elephpant.php">Elephpant logo</a> is created by Vincent Pontier.<br><br>
+    This plugin is entirely based on the <a href="https://github.com/dlsniper/gopher">Gopher plugin</a> by
+Florin Pățan. And inherits <a href="https://plugins.jetbrains.com/plugin/8575-nyan-progress-bar">Nyan Progress Bar plugin</a> from Dmitry Batkovich.
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <idea-version until-build="203." since-build="202.*"/>
+
+    <applicationListeners>
+        <listener class="pronskiy.elephpant.ElephpantApplicationComponent" topic="com.intellij.ide.ui.LafManagerListener"/>
+    </applicationListeners>
+</idea-plugin>
