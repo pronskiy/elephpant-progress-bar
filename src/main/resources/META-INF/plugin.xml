@@ -12,8 +12,7 @@ Florin Pățan. And inherits <a href="https://plugins.jetbrains.com/plugin/8575-
     ]]></description>
 
     <depends>com.intellij.modules.platform</depends>
-
-    <idea-version until-build="203." since-build="202.*"/>
+    <idea-version since-build="201"/>
 
     <applicationListeners>
         <listener class="pronskiy.elephpant.ElephpantApplicationComponent" topic="com.intellij.ide.ui.LafManagerListener"/>
