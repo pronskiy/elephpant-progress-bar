@@ -1,4 +1,4 @@
-<idea-plugin>
+<idea-plugin require-restart="true">
     <id>pronskiy.elephpant</id>
     <name>Elephpant Progress Bar</name>
     <vendor email="roman@pronskiy.com">Roman Pronskiy</vendor>
